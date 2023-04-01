@@ -2,13 +2,13 @@
 import { initializeApp } from "firebase/app";
 import {
   getAuth,
-  onAuthStateChanged,
   signInWithRedirect,
   signInWithPopup,
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
+  onAuthStateChanged,
 } from "firebase/auth";
 
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
